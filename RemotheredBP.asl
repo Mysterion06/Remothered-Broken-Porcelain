@@ -17,7 +17,7 @@ start
 
 isLoading
 {
-    if((current.LRT == 32758 || current.LRT == 0) && current.LRT2 == 0 && current.LRT4 != 1){
+    if((current.LRT == 32758 || current.LRT == 0) && current.LRT4 != 1){
         return true;
     } else{
         return false;
